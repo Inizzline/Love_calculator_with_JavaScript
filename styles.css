@@ -1,0 +1,139 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.container {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 60vw;
+  box-shadow: inset -8px -8px 12px rgb(120, 81,169),
+              inset 8px 8px 12px rgb(136, 89, 172);
+              border-radius: 50px;
+
+}
+
+.input-div {
+  display: flex;
+}
+
+.input-div input {
+  width: 45%;
+  height: 40px;
+  margin: 30px 5px;
+  text-align: start;
+  outline: none;
+  border: 1px solid #533483;
+  padding: 2px;
+}
+
+.content {
+  top: 45%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.calculate_btn {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.hint {
+  text-align: center;
+  margin-top: -45px;
+  font-family: "Handlee";
+  color: #533483;
+  font-weight: 500;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-family: "Handlee";
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #533483;
+  border-radius: 7px;
+  width: 100%;
+  padding: 10px;
+  margin-top: -25px;
+  margin-left: -4%;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+/* .pressed {
+  box-shadow: 0 3px 4px 0 #404B69;
+  opacity: 0.5;
+} */
+
+#answer {
+  display: flex;
+  text-align: center;
+  font-family: "Handlee";
+  font-size: 1.5rem;
+  background-color: #533483;
+  width: 110%;
+  padding: 18px;
+  margin-top: 5px;
+  margin-left: -7%;
+  border-radius: 50px;
+  color: #fff;
+}
+
+#error {
+  visibility: hidden;
+  margin-left: 55px;
+  font-size: 15px;
+  text-align: center;
+
+
+}
+
+#statement {
+  visibility: hidden;
+  text-align: center;
+  margin-top: 5px;
+  padding: 18px;
+  border-radius: 50px;
+  background-color: white;
+  color: purple;
+
+}
+
+
+.content h1 {
+  margin-top: 60px;
+  text-align: center;
+  font-family: "Sofia";
+  font-size: 3.5rem;
+  color: #533483;
+}
+
+h1:hover {
+  color: #D23369;
+}
+
+body {
+  background-color: pink;
+}
+
+footer {
+  margin-top: 710px;
+  text-align: center;
+  font-family: "Handlee";
+}
